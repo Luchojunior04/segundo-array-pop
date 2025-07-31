@@ -78,6 +78,11 @@ div.contenido{
     background-color: grey;
 }
 
+span{
+    padding: 8px;
+
+}
+
 
 .Reset button:hover{
     background-color:transparent;
