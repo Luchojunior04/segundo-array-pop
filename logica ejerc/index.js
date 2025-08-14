@@ -165,3 +165,65 @@ console.log(mensaje);
 
 
 let lugar = prompt("Cual es tu lugar favorito")
+
+
+
+//Has hecho una compra y sabes el precio del producto y su iva. Haz un script que te calcule el precio total que 
+// vas a pagar por tu compra.
+
+//Te recuerdo que para calcular el total debes sumar al precio el resultado de multiplicasr precio por el 
+// iva y dividir por 100.            
+
+//Precio 200€
+
+//Iva: 21%
+
+//El total son 242 €.  //200 + 21*200/100
+
+let precio = 200;
+let Iva = 21;
+
+let precioTotal = precio + precio * 21/100;
+
+console.log("El total son " + precioTotal);
+
+
+let lado = 40;
+let area = 40*40;
+let perimetro = 40*4;
+
+console.log("El area es " + area);
+console.log("El perimetro es " + perimetro)
+
+
+
+let nombre = prompt("Escribe tu nombre");
+
+let saludo = "Hola " + nombre;
+
+console.log(saludo );
+
+
+
+let user1 = parseInt(prompt("Teclea el numeor 3"));
+let user2 = parseInt(prompt("Teclea el numeor 2"));
+let user3 = parseInt(prompt("Teclea el numeor 4"));
+
+let media = (user1 + user2 + user3) / 3;
+
+alert("La media de los numeros es " + media);
+
+
+let litros = prompt("Litros consumidos");
+let km     = prompt("Km recorridos");
+
+litros = parseFloat(litros);
+km = parseFloat(km);
+
+let consumido = litros / km;
+
+alert("Has consumido " + consumido);
+
+
+
+
