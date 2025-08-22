@@ -59,22 +59,22 @@
 
 
 
-let calificacionEscolar = 80;
+//let calificacionEscolar = 80;
 
-if(calificacionEscolar >= 90){
-    console.log("Excelente")
+//if(calificacionEscolar >= 90){
+    //console.log("Excelente")
 
-}else if(calificacionEscolar >= 70){
-    console.log("Aprobado")
-}else if(calificacionEscolar < 70){
-    console.log("Reprobado")
-}
-
-
+//}else if(calificacionEscolar >= 70){
+  //  console.log("Aprobado")
+//}else if(calificacionEscolar < 70){
+    //console.log("Reprobado")
+//}
 
 
-let User = "admin";
-let password = "234";
+
+
+//let User = "admin";
+//let password = "234";
 
 //if(User && password){
     //console.log("Acceso concedido")
@@ -83,88 +83,88 @@ let password = "234";
   //  console.log("Acesso denegado")
 //} ejemplo 1 sencillo.
 
-if(User === "admin"){
-    if(password === "1234"){
-        console.log("Accesso concedido");
-    }else{
-        console.log("password incorrect");
+//if(User === "admin"){
+    //if(password === "1234"){
+       // console.log("Accesso concedido");
+    //}else{
+       // console.log("password incorrect");
     
-    } 
-}else{
-        console.log("User  incorrect");
-    }
+   // } 
+//}else{
+    //    console.log("User  incorrect");
+    //}
 
 
 
 
-let temperature = 14;
+//let temperature = 14;
 
-if(temperature > 30){
-    console.log("Hace calor")
+//if(temperature > 30){
+  //  console.log("Hace calor")
 
-}else if(temperature >= 15 ){
-    console.log("Climna agradable")
+//}else if(temperature >= 15 ){
+  //  console.log("Climna agradable")
 
-}else if(temperature < 15){
-    console.log("Hace frio")
-}
-
-
-
-let Dia = "Domingo";
-
-switch (Dia) {
-    case "Domingo":
-    case "Sabado":
-        console.log("Fin de semana")
-        break;
-    case "Viernes":
-    case "Jueves":    
-    case "Miercoles":
-    case "Martes":
-    case "Lunes":
-        console.log("Dia laboral")
-    default:
-        break;
-
-}
-
-let presupuesto = 400;
-
-if(presupuesto >= 1000){
-    console.log("Puedes ir de playa")
-
-}else if(presupuesto >= 500){
-    console.log("Puedes ir de campo")
-
-}else if(presupuesto < 500){
-    console.log("Quedate en casa")
-}
-
-
-let edadJuan = 40;
-let edadMaria = 30;
-
-if(edadMaria > edadJuan){
-    console.log("Maria es mayor que Juan")
-
-}else if(edadMaria === edadJuan){
-    console.log("Maria y Juan tienen la misma edad")
-
-}else{
-    console.log("Juan es mayor que Maria")
-}
+//}else if(temperature < 15){
+  //  console.log("Hace frio")
+//}
 
 
 
+//let Dia = "Domingo";
 
-let edad = 17
-;
-let mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
-console.log(mensaje);
+//switch (Dia) {
+  //  case "Domingo":
+    //case "Sabado":
+      //  console.log("Fin de semana")
+        //break;
+    //case "Viernes":
+    //case "Jueves":    
+    //case "Miercoles":
+    //case "Martes":
+    //case "Lunes":
+      //  console.log("Dia laboral")
+    //default:
+      //  break;
+
+//}
+
+//let presupuesto = 400;
+
+//if(presupuesto >= 1000){
+  //  console.log("Puedes ir de playa")
+
+//}else if(presupuesto >= 500){
+  //  console.log("Puedes ir de campo")
+
+//}else if(presupuesto < 500){
+  //  console.log("Quedate en casa")
+//}
 
 
-let lugar = prompt("Cual es tu lugar favorito")
+//let edadJuan = 40;
+//let edadMaria = 30;
+
+//if(edadMaria > edadJuan){
+  //  console.log("Maria es mayor que Juan")
+
+//}else if(edadMaria === edadJuan){
+  //  console.log("Maria y Juan tienen la misma edad")
+
+//}else{
+  //  console.log("Juan es mayor que Maria")
+//}
+
+
+
+
+//let edad = 17
+//;
+//let mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
+//console.log(mensaje);
+
+
+//let lugar = prompt("Cual es tu lugar favorito")
 
 
 
@@ -180,50 +180,105 @@ let lugar = prompt("Cual es tu lugar favorito")
 
 //El total son 242 €.  //200 + 21*200/100
 
-let precio = 200;
-let Iva = 21;
+//let precio = 200;
+//let Iva = 21;
 
-let precioTotal = precio + precio * 21/100;
+//let precioTotal = precio + precio * 21/100;
 
-console.log("El total son " + precioTotal);
-
-
-let lado = 40;
-let area = 40*40;
-let perimetro = 40*4;
-
-console.log("El area es " + area);
-console.log("El perimetro es " + perimetro)
+//console.log("El total son " + precioTotal);
 
 
+//let lado = 40;
+//let area = 40*40;
+//let perimetro = 40*4;
 
-let nombre = prompt("Escribe tu nombre");
-
-let saludo = "Hola " + nombre;
-
-console.log(saludo );
+//console.log("El area es " + area);
+//console.log("El perimetro es " + perimetro)
 
 
 
-let user1 = parseInt(prompt("Teclea el numeor 3"));
-let user2 = parseInt(prompt("Teclea el numeor 2"));
-let user3 = parseInt(prompt("Teclea el numeor 4"));
+//let nombre = prompt("Escribe tu nombre");
 
-let media = (user1 + user2 + user3) / 3;
+//let saludo = "Hola " + nombre;
 
-alert("La media de los numeros es " + media);
+//console.log(saludo );
 
 
-let litros = prompt("Litros consumidos");
-let km     = prompt("Km recorridos");
 
-litros = parseFloat(litros);
-km = parseFloat(km);
+//let user1 = parseInt(prompt("Teclea el numeor 3"));
+//let user2 = parseInt(prompt("Teclea el numeor 2"));
+//let user3 = parseInt(prompt("Teclea el numeor 4"));
 
-let consumido = litros / km;
+//let media = (user1 + user2 + user3) / 3;
 
-alert("Has consumido " + consumido);
+//alert("La media de los numeros es " + media);
 
+
+//let litros = prompt("Litros consumidos");
+//let km     = prompt("Km recorridos");
+
+//litros = parseFloat(litros);
+//km = parseFloat(km);
+
+//let consumido = litros / km;
+
+//alert("Has consumido " + consumido);
+
+
+
+let dia = 6.5;
+
+switch (dia) {
+    case 1:
+        console.log("Lunes")
+        break;
+    case 2:
+        console.log("Martes")
+        break;
+    case 3:
+        console.log("Miercoles")
+        break;    
+    case 4:
+        console.log("Jueves")
+        break;
+    case 5:
+        console.log("Viernes")
+        break;
+    case 6:
+        console.log("Sabado")
+        break;
+    case 7:
+        console.log("Domingo")        
+        break;
+
+    default:
+        console.log("Campo no valido")
+        break;
+}
+
+
+
+let edad = 60;
+let precio = 300;
+
+ if(edad <= 12) {
+    console.log("Descuento del 50%");
+    precioFinal = precio - (precio * (50/100))
+    console.log("El cliente debe pagar " + precioFinal)
+
+} else if(edad >= 60) {
+    console.log("Descuento del 30%");
+    precioFinal = precio - (precio * (30/100))
+    console.log("El cliente debe pagar " + precioFinal)
+
+} else{
+    console.log("No recibe descuento");
+};
+
+ .
+
+
+ 
 
 
 
