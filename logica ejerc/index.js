@@ -275,7 +275,7 @@ let precio = 300;
     console.log("No recibe descuento");
 };
 
- .
+ 
 
 
  

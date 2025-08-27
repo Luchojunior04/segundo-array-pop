@@ -65,6 +65,83 @@
 //};
 
 
+//algoritmo 4 numeros n1,n2,n3,n4 compararlos, queremos hacer 4 combinaciones
+//, primero cual de esos cuatro es el mayor el otro es el MediaElementAudioSourceNode, 
+//son iguales y son los mayores y 
+//de que otros son iguales y son menores.
+
+let n1 = 4
+let n2 = 3
+let n3 = 1
+let n4 = 2
+
+if(n1 == n2 && n1 < n3 && n3 == n4){
+    console.log("n3 y n4 iguales pero mayores que n1 y n2");
+    console.log("n1 y n2 son iguales pero menores que n3 y n4")
+} else if(n1 == n2 && n1 > n3 && n3 == n4){
+    console.log("n1 y n2 son iguales pero mayores que n3 y n4");
+    console.log("n3 y n4 son iguales pero menores que n1 y n2")
+} else if(n1 < n2 && n2 < n3 && n3 == n4){
+    console.log("n4 y n3 son iguales pero mayores y n1 es el menor")
+} else if(n1 == n2 && n1 > n3 && n3 > n4){
+    console.log("n1 y n2 son iguales y mayores pero n4 es el menor")
+} else if(n1 == n3 && n1 > n4 && n2 < n4){
+    console.log("n1 y n3 son iguales y mayores pero n2 es el menor")
+} else if(n1 == n4 && n1 > n2 && n2 > n3){
+    console.log("n1 y n4 son iguales y mayores pero n3 es el menor")
+}else if(n1 == n2 && n1 < n3 && n3 < n4){
+    console.log("n4 es el mayor de todos y n1 y n2 son iguales pero menores")
+} else if(n1 == n2 && n1 < n4 && n3 > n4){
+    console.log("n3 es el mayor de todos y n1 y n2 son iguales pero menores")
+} else if(n1 == n3 && n1 < n4 && n2 > n4){
+    console.log("n2 es el mayor de todos y n1 y n3 son iguales pero menores")
+} else if(n2 == n3 && n2 < n4 && n1 > n4){
+    console.log("n1 es el mayor de todos y n2 y n3 son igaules pero menores")
+} else if(n1 < n2 && n2 < n3 && n3 < n4){
+    console.log("n4 es el mayor de todos y n1 es el menor")
+} else if(n1 < n2 && n2 < n4 && n3 > n4){
+    console.log("n3 es el mayor de todos y n1 es el menor")
+} else if(n1 < n3 && n3 < n4 && n2 > n4){
+    console.log("n2 es el mayor de todos y n1 es el menor")
+} else if(n2 < n3 && n3 < n4 && n1 > n4){
+    console.log("n1 es el mayor de todo y n2 es el menor de todo")
+} else if(n3 < n1 && n1 < n2 && n4 > n2){
+    console.log("n4 es el mayor de todo y n3 es el menor de todo")
+}else if(n2 < n1 && n1 < n3 && n4 > n3){
+    console.log("n4 es el mayor de todo y n2 es el menor de todo")
+}else if(n4 < n1 && n1 < n2 && n3 > n2){
+    console.log("n3 es el mayor de todo y n4 es el menor de todo")
+}else if(n1 == n2 && n1 == n3 && n3 < n4){
+    console.log("n1,2,3 son iguales pero n4 es el mayor de todos")
+}else if(n1 == n2 && n1 == n4 && n3 > n4){
+    console.log("n1,2,4 son iguales pero n3 es el mayor de todos")
+}else if(n1 == n3 && n1 == n4 && n4 < n2){
+    console.log("n1,3,4 son iguales pero n2 es el mayor de todos")
+}else if(n2 == n3 && n2 == n4 && n4 < n1){
+    console.log("n2,3,4 son iguales pero n1 es el mayor de todos")
+} else if(n1 == n2 && n1 == n3 && n3 > n4){
+    console.log("n1,2,3 son iguales pero n4 es el menor de todos")
+}else if(n1 == n2 && n1 == n4 && n3 < n4){
+    console.log("n1,2,4 son iguales pero n3 es el menor de todos")
+}else if(n1 == n3 && n1 == n4 && n4 > n2){
+    console.log("n1,3,4 son iguales pero n2 es el menor de todos")
+}else if(n2 == n3 && n2 == n4 && n4 > n1){
+    console.log("n2,3,4 son iguales pero n1 es el menor de todos")
+}else if(n1 > n2 && n2 > n3 && n3 > n4){
+    console.log("n1 es el mayor de todo y n4 es el menor de todo")
+}else if(n1 < n2 && n2 > n3 && n3 < n4){
+    console.log("n2 es el mayor de todo y n3 es el menor de todo")
+}else if(n1 > n2 && n1 < n3 && n3 < n4){
+    console.log(" n2 es el menor de todo")
+}else if(n1 < n2 && n2 < n3 && n3 < n4){
+    console.log(" n1 es el menor de todo")
+} else{
+    console.log("Todos los numeros son iguales");
+};
+
+
+
+
 
 
 
